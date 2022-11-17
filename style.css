@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body{
+  background:linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.upper-button {
+  padding: 20px 80px;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  right: 100px;
+  margin: 10px 80px 0 0;
+  
+}
+.side-section {
+  float: left;
+  width: 30%;
+  margin: 30px 0 0 0;
+}
+.side-button {
+  width: 60%;
+  display: block;
+  padding: 20px 0;
+  margin: 4px 0 0 160px;
+  border: none;
+  border-radius: 15px;
+}
+.right-section {
+  width: 60%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px -50px 0 0;
+}
+label {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    margin-top: 5px;
+}
+#input2{
+    width: 250px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, tr,td{
+    border: 1px solid black;
+    width: 280px;
+    height: 30px;
+}
+button{
+    cursor: pointer;
+    background-color:#F1D78B
+}
+button:active{
+    background-color: rgb(138, 138, 75);
+}
+.del{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:2px;
+  margin: 2px 0 0 120px;
+  border-radius: 8px;
+}
+h1{
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 70px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
